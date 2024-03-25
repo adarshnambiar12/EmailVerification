@@ -1,4 +1,4 @@
-# EmailVerification using SMTP
+# Email Verification using SMTP
 
 This repository contains code to demonstrate webpage of Email verification using SMTP (Simple Mail Transfer Protocol) using JavaScript.
 
@@ -10,27 +10,27 @@ Email verification is an essential part of many web applications to ensure the v
 
 To use this code in your project, follow these steps:
 
-#Clone the Repository:
+Clone the Repository:
 git clone https://github.com/adarshnambiar12/EmailVerification.git
 
 ## Create SMTP Credentials
 
-Proceed to https://smtpjs.com or any other service and follow the Steps to Create SMTP Credentials.
+Proceed to https://smtpjs.com or any other Service and follow the steps to create SMTP Credentials.
 
 ## Navigate to the Directory:
 
 cd EmailVerification
 
-# Modify Credentials:
+## Modify Credentials:
 
 Open the script.js file and replace your Credentials at line 96 and 97. 
 
-# Run the Application:
+## Run the Application:
 
 Open the index.html in your Web Browser and test the Webpage.
 
-# Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
-# Contact
+## Contact
 For any questions or inquiries, feel free to contact.
