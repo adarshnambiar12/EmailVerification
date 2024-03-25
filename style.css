@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    background-color: #ffffff77;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#otp-verification {
+    opacity: 0;
+    display: none;
+}
+
+#otp-verification.show {
+    opacity: 1;
+    display: block;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+h1 {
+    margin-top: 0;
+    color: #222;
+}
+
+p {
+    color: #333;
+    margin-block: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-container .otp {
+    margin-inline: 5px;
+    width: 40px;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+input:focus {
+    outline: 3px solid #007bff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#verify-otp[disabled] {
+    pointer-events: none; /* Disable click events */
+    opacity: 0.5; /* Change opacity to indicate it's disabled */
+    transition: opacity 0.8s ease; /* Add transition effect */
+}
+
+#verify-otp:not([disabled]) {
+    transition: opacity 0.8s ease;
+    opacity: 1; /* Change opacity back to normal when enabled */
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #0056b3;
+}

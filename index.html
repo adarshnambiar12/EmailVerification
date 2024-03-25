@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body oncontextmenu="return false">
+    <div class="container" id="email-verification">
+        <h1>Email Verification</h1>
+        <p>Enter your Email Address</p>
+        <form id="email-form">
+            <input type="email" id="email-input" name="email" placeholder="Your Email Address" spellcheck="false"
+            oninput="lowercase(this)"
+                required>
+            <button type="submit" id="submit-email">Submit</button>
+        </form>
+    </div>
+
+    <div class="container" id="otp-verification">
+        <h2>OTP Verification</h2>
+        <p>Enter the OTP sent to your Email address</p>
+        <div class="otp-container">
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+            <input type="text" class="otp" name="otp" maxlength="1" spellcheck="false" required />
+        </div>
+        <button id="verify-otp" disabled>Verify OTP</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
