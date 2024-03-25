@@ -78,7 +78,7 @@ function sendOTP() {
     console.log("Sending OTP...");
     const emailId = document.getElementById('email-input');
 
-    let sentOtp = Math.floor(100000 + Math.random() * 900000);
+    sentOtp = Math.floor(100000 + Math.random() * 900000);
 
     const emailBody = `
         <div style="font-family: 'Poppins', sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f9f9f9;">
