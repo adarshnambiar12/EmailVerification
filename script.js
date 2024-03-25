@@ -91,9 +91,10 @@ function sendOTP() {
         </div>
     `;
 
+    //Enter your SMTP Credentials Here
     Email.send({
-        SecureToken: "150064e4-9018-437f-8208-9959bad7f069",
-        From: "adarshproject@outlook.com",
+        SecureToken: "ENTER_YOUR_TOKEN",
+        From: "ENTER_FROM_EMAIL",
         To: emailId.value,
         Subject: "Email from OTP Verification Project",
         Body: emailBody,
