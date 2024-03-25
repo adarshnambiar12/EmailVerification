@@ -10,12 +10,13 @@ Email verification is an essential part of many web applications to ensure the v
 
 To use this code in your project, follow these steps:
 
-Clone the Repository:
-git clone https://github.com/adarshnambiar12/EmailVerification.git
-
 ## Create SMTP Credentials
 
 Proceed to https://smtpjs.com or any other Service and follow the steps to create SMTP Credentials.
+
+## Clone the Repository:
+
+git clone https://github.com/adarshnambiar12/EmailVerification.git
 
 ## Navigate to the Directory:
 
